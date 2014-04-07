@@ -1,20 +1,26 @@
 {
   "name": "csv-converter",
   "version": "1.2.2",
-	"author": "Montier Elliott <montiersdk@gmail.com>",
-	"description": "Converts CSV files to JSON",
+  "author": "Montier Elliott montiersdk@gmail.com",
+  "description": "Converts CSV files to JSON",
   "repository": "git@github.com:javascriptHustler/csv-converter.git",
   "dependencies": {
     "underscore": "~1.6.0",
     "csvtojson": "~0.2.2",
-    "should": "~3.2.0"
+    "commander": "~2.2.0"
   },
-	"devDependencies": {
-		"grunt": "~0.4.3",
+  "devDependencies": {
+    "grunt": "~0.4.3",
+    "grunt-prompt": "~1.1.0",
+		"should": "~3.2.0",
+		"grunt-mocha-cli": "~1.8.0",
 		"load-grunt-tasks": "~0.4.0",
 		"grunt-contrib-watch": "~0.5.3"
-	},
-	"engines": {
-		"node": ">=0.8.0"
-	}
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "bin": {
+    "csv": "bin/csv.js"
+  }
 }
