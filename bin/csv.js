@@ -43,9 +43,7 @@ if ( !parsingModule ) {
   return true;
 }
 
-;require('../lib/convert')(csvFilePath, outputJSONFile, require(parsingModule));
-
-// return true;
+require('../lib/convert')(csvFilePath, outputJSONFile, require(parsingModule));
 
 
 

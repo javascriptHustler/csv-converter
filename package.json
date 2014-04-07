@@ -12,10 +12,10 @@
   "devDependencies": {
     "grunt": "~0.4.3",
     "grunt-prompt": "~1.1.0",
-		"should": "~3.2.0",
-		"grunt-mocha-cli": "~1.8.0",
-		"load-grunt-tasks": "~0.4.0",
-		"grunt-contrib-watch": "~0.5.3"
+    "should": "~3.2.0",
+    "grunt-mocha-cli": "~1.8.0",
+    "load-grunt-tasks": "~0.4.0",
+    "grunt-contrib-watch": "~0.5.3"
   },
   "engines": {
     "node": ">=0.8.0"
