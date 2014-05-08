@@ -11,7 +11,7 @@ var fs          = require('fs'),
  * Confingure CSV command line utility
  */
 csv
-  .version('1.0.1')
+  .version('1.3.2')
   .option('-i, --inputCSVFile [path]', 'Path to the CSV file you would like to convert to JSON.')
   .option('-p, --parsingModule [module]', 'A module that will contain parsing logic for your JSON object.')
   .parse(process.argv);
