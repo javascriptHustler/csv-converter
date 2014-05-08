@@ -42,11 +42,9 @@ Locally
 ##Parsing Module
 Most of the time you don't want "Company Name" as a property. You just want "company." Example json below.
 ```json
-// obj["Company Name"] BAD
 {
    "Company Name": "Best Buy"
 },
-// obj["company"] GOOD
 {
    "company": "Best Buy"
 }
