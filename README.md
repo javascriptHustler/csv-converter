@@ -44,7 +44,7 @@ Most of the time you don't want "Company Name" as a property. You just want "com
 ```json
 {
    "Company Name": "Best Buy"
-},
+}
 {
    "company": "Best Buy"
 }
